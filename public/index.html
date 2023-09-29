@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-with-Typescript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <section class="greetings">
+            <h1 class="holder">Make your day blissful!</h1>
+            <div class="timeAndMoment">
+                <span class="moment"> Good Morning, </span>
+                <span class="name" contenteditable="true">{Your name}</span>
+            </div>
+            <form class="inputWrapper">
+                <input type="text" name="" placeholder="what's on your mind????" id="userplan">
+                <button type="submit" class="submit">Add plan</button>
+            </form>
+        </section>
+        <!-- <div class="rotary">
+            <div class="exp"></div>
+        </div> -->
+        <section class="plan">
+            <p class="err"></p>
+            <ul class="plans"></ul>
+        </section>
+    </main>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
